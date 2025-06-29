@@ -1,0 +1,25 @@
+# Go 二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+helloworld
+awesomeProject      # 如果你的可执行文件名与项目同名
+
+# Go Module 缓存和临时文件
+go.sum
+
+# 操作系统文件
+.DS_Store
+
+# IDE/编辑器配置
+.idea/
+.vscode/
+
+# 日志文件、记录文件
+*.log
+record.txt          # 如果你不希望提交 record.txt
+
+# 其他
+*.tmp
